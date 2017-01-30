@@ -10,8 +10,8 @@ theme_settings:
 
   # Header and footer text
   header_text: >
-     <h1>Witty & Hilarious Rails Developer</h1>
-     <p>I'm a kickass developer specializing in JavaScript, jQuery, and AngularJS.</p>
+     <h1>Maniacal and Dangerous Developer</h1>
+     <p>I'm a developer specializing in jQuery, Angular and Ruby</p>
   header_text_feature_image:
   footer_text: >
    Powered by <a href="http://jekyllrb.com">Jekyll</a> and made with love.
