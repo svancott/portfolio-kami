@@ -10,8 +10,8 @@ theme_settings:
 
   # Header and footer text
   header_text: >
-     <h1>Maniacal and Dangerous Developer</h1>
-     <p>I'm a developer specializing in jQuery, Angular and Ruby</p>
+     <h1>Dreamer, Dad, Developer</h1>
+     <p>I'm a developer specializing in JavaScript, AngularJS and Ruby</p>
   header_text_feature_image:
   footer_text: >
    Powered by <a href="http://jekyllrb.com">Jekyll</a> and made with love.
@@ -27,7 +27,7 @@ theme_settings:
   github: "svancott"
   google_plus:
   instagram:
-  linkedin: stephen-vancott
+  linkedin: "stephen-vancott"
   pinterest:
   reddit:
   soundcloud:
