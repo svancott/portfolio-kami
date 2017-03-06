@@ -27,7 +27,7 @@ theme_settings:
   github: "svancott"
   google_plus:
   instagram:
-  linkedin: "stephen-vancott"
+  linkedin: stephen-vancott
   pinterest:
   reddit:
   soundcloud:
@@ -39,7 +39,7 @@ theme_settings:
   youtube:
 
   # Scripts
-  google_analytics: "UA-91136504-1" 
+  google_analytics: "UA-91136504-1"
   disqus_shortname:
   katex: true # Enable if using math markup
 
