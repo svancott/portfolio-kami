@@ -1,1 +1,1 @@
-# [Check out the site](stevevancott.com)
+[Check out the site!](http://stevevancott.com)

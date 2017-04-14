@@ -2,7 +2,7 @@
 layout: post
 title: Bloccit
 thumbnail-path: "img/reddit.svg"
-short-description: Bloccit is a an app that I built that's based on the fan fave Reddit, "the front page of the internet".
+short-description: Bloccit is an app that I built that's based on the fan fave Reddit, "the front page of the internet".
 ---
 Welcome to Bloccit!
 
