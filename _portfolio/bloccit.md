@@ -19,9 +19,10 @@ Bloccit uses a ranking algorithm that's similar to Reddit's, making sure that th
 
 To keep the most popular **current** posts at the top, I made the ranking method as follows:
 
-|class Post|
-|---|
-|has_many :votes|
+{% highlight ruby %}
+class Post < ApplicationRecord
+  has_many :votes
+{% endhighlight %}
 
 {% highlight ruby %}
 def points
