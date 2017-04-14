@@ -23,19 +23,19 @@ To keep the most popular **current** posts at the top, I made the ranking method
 |---|
 |has_many :votes|
 
-```
+{% highlight ruby %}
 def points
   votes.sum(:value)
 end
-```
+{% endhighlight %}
 
-```
+{% highlight ruby %}
 def update_rank
   age_in_days = (created_at - Time.new(1970,1,1)) / 1.day.seconds
   new_rank = points + age_in_days
   update_attribute(:rank, new_rank)
 end
-```
+{% endhighlight %}
 
 This way you don't have high rated posts from 10 years ago still showing up at the top.
 
