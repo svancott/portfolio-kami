@@ -7,7 +7,7 @@ short-description: Bloccit is a an app that I built that's based on the fan fave
 Welcome to Bloccit!
 
 {:.center}
-![]({{ site.baseurl }}/reddit.svg)
+![]({{ site.baseurl }}img/reddit.svg)
 
 Bloccit is an app that I built that's based on the fan fave Reddit, "*the front page of the internet*".
 
@@ -23,10 +23,12 @@ To keep the most popular **current** posts at the top, I made the ranking method
 |---|
 |has_many :votes|
 
-```def points
+```
+def points
   votes.sum(:value)
 end
 ```
+
 ```
 def update_rank
   age_in_days = (created_at - Time.new(1970,1,1)) / 1.day.seconds
@@ -40,4 +42,6 @@ This way you don't have high rated posts from 10 years ago still showing up at t
 
 [Check out the app in production!](https://salty-plains-24479.herokuapp.com/)
 
-[Blocipedia on Github](https://github.com/svancott/bloccit)
+Wanna see the code?
+
+[Bloccit on Github](https://github.com/svancott/bloccit)

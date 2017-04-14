@@ -2,7 +2,7 @@
 layout: post
 title: Blocipedia
 thumbnail-path: "img/Wikipedia-logo-v2.svg.png"
-short-description: Blocipedia is a replica of Wikipedia built with Ruby on Rails
+short-description: Blocipedia is a replica of Wikipedia built with Ruby on Rails.
 ---
 Welcome to Blocipedia!
 
@@ -41,5 +41,7 @@ Here's how the Has Many Through relationship is coded:
 In my example, the Collaborator model (which can also be considered a '*join table*', since it *joins* the User and Wiki tables) gives me the ability to call Wiki.users to see that wiki's collaborators, and User.shared_wikis to see all the wikis that that user collaborates on (I used source: :wiki to be able to change the name to :shared_wikis to prevent confusion, since User.wikis would return the wikis where that user is the author). The Has Many Through relationship is a great tool to have in your belt.
 
 [Check out the app in production!](https://mysterious-retreat-59118.herokuapp.com/)
+
+Wanna see the code?
 
 [Blocipedia on Github](https://github.com/svancott/blocipedia)
