@@ -1,13 +1,13 @@
 ---
 layout: post
 title: Blocipedia
-thumbnail-path: "img/Wikipedia-logo-v2.svg.png"
+thumbnail-path: "img/wiki_logo.png"
 short-description: Blocipedia is a replica of Wikipedia built with Ruby on Rails.
 ---
 Welcome to Blocipedia!
 
 {:.center}
-![]({{ site.baseurl }}/img/Wikipedia-logo-v2.svg.png)
+![]({{ site.baseurl }}/img/wiki_logo.png)
 
 I built Blocipedia using Devise for my user model, so it has plenty of user freedom including signup/signin, email confirmation, 'forgot password' assistance, and a 'timeoutable' sign-out for inactive sessions.
 
