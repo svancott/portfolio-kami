@@ -7,7 +7,7 @@ short-description: Bloccit is a an app that I built that's based on the fan fave
 Welcome to Bloccit!
 
 {:.center}
-![]({{ site.baseurl }}img/reddit.svg)
+![]({{ site.baseurl }}/img/reddit.svg)
 
 Bloccit is an app that I built that's based on the fan fave Reddit, "*the front page of the internet*".
 

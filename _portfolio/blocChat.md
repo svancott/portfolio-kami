@@ -2,7 +2,7 @@
 layout: post
 title: Bloc Chat
 thumbnail-path: "img/blocChat.png"
-short-description: Bloc Chat is real-time chat application built with AngularJS and Firebase.
+short-description: Bloc Chat is a real-time chat application built with AngularJS and Firebase.
 ---
 
 {:.center}
@@ -13,9 +13,9 @@ After building my [Bloc Jams](https://github.com/svancott/bloc-jams-angular) app
 
 Firebase is a mobile platform designed to help develop high-quality apps. I used it to store the database for **_Bloc Chat_** and found it very useful. Once I got the hang of the `$firebaseArray` service, it was easy to pull the data that I wanted off the database. I used UI Bootstrap to create the app’s modals. UI Bootstrap and its many components are a great help in developing apps with Angular. Lastly, to make and store the users' screen names, I used `ngCookies` and the `$cookies` service, which make it easy to store information in the browser for future use.
 
-I hit a few roadblocks while making **_Bloc Chat_** and did quite a bit of research while trying to get unstuck. One of the main issues I had was displaying each chat room's messages individually when the name of the room was clicked. According to Firebase, it’s good practice to keep your data structures as flat as possible, meaning don’t nest your data too deeply. Although for my purposes, nesting all the data would have been **much** easier, I decided I wanted to follow their advice and keep my data structures nice and flat. I made separate paths for the rooms and messages, but then had to figure out how to connect the two. How could I get the messages from a certain room to display while being stored in a completely separate path? 
+I hit a few roadblocks while making **_Bloc Chat_** and did quite a bit of research while trying to get unstuck. One of the main issues I had was displaying each chat room's messages individually when the name of the room was clicked. According to Firebase, it’s good practice to keep your data structures as flat as possible, meaning don’t nest your data too deeply. Although for my purposes, nesting all the data would have been **much** easier, I decided I wanted to follow their advice and keep my data structures nice and flat. I made separate paths for the rooms and messages, but then had to figure out how to connect the two. How could I get the messages from a certain room to display while being stored in a completely separate path?
 
-To resolve the issue I turned to `$state params`. In index.html, I display the list of available rooms by using an ngRepeat. My Room Controller has a Room service injected in it which gets the data from the rooms path on Firebase. Each room name in the list of rooms displays as a link with an `<a>` tag, so I added a ui-sref for each link that inserts that room’s unique room ID (created by Firebase) to the url when that room is clicked. 
+To resolve the issue I turned to `$state params`. In index.html, I display the list of available rooms by using an ngRepeat. My Room Controller has a Room service injected in it which gets the data from the rooms path on Firebase. Each room name in the list of rooms displays as a link with an `<a>` tag, so I added a ui-sref for each link that inserts that room’s unique room ID (created by Firebase) to the url when that room is clicked.
 
 ```javascript
 	<div ng-repeat="room in roomData.rooms">
