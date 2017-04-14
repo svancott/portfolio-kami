@@ -21,11 +21,12 @@ I created the ability to add collaborators by creating a model and using a HMT (
 
 Here's how the Has Many Through relationship is coded:
 
-|class Wiki|
-| ---------------------------------------------------------------- |
-| belongs_to :user |
-| has_many :collaborators |
-| has_many :users, through: :collaborators |
+{% highlight ruby %}
+class Wiki
+ belongs_to :user
+ has_many :collaborators
+ has_many :users, through: :collaborators
+ {% endhighlight %}
 
 | class User |
 | --- |
