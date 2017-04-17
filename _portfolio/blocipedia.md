@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Blocipedia
+title: Vanipedia
 thumbnail-path: "img/wiki_logo.png"
-short-description: Blocipedia is a replica of Wikipedia built with Ruby on Rails.
+short-description: Vanipedia is a replica of Wikipedia built with Ruby on Rails.
 ---
-Welcome to Blocipedia!
+Welcome to **_Vanipedia_**!
 
 {:.center}
 ![]({{ site.baseurl }}/img/wiki_logo.png)
 
-I built Blocipedia using Devise for my user model, so it has plenty of user freedom including signup/signin, email confirmation, 'forgot password' assistance, and a 'timeoutable' sign-out for inactive sessions.
+I built **_Vanipedia_** using Devise for my user model, so it has plenty of user freedom including signup/signin, email confirmation, 'forgot password' assistance, and a 'timeoutable' sign-out for inactive sessions.
 
 You can also update your profile at any time, including the ability to upgrade your account to premium (and downgrade :( too). I use Stripe for the upgrade fee, so payments are smooth and easy for the user.
 
@@ -47,4 +47,4 @@ In my example, the Collaborator model (which can also be considered a '*join tab
 
 Wanna see the code?
 
-[Blocipedia on Github](https://github.com/svancott/blocipedia)
+[Vanipedia on Github](https://github.com/svancott/vanipedia)

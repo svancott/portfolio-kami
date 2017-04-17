@@ -1,21 +1,21 @@
 ---
 layout: post
-title: Bloccit
+title: RedidIt
 thumbnail-path: "img/reddit.svg"
-short-description: Bloccit is an app that I built that's based on the fan fave Reddit, "the front page of the internet".
+short-description: RedidIt is an app that I built that's based on the fan fave Reddit, "the front page of the internet".
 ---
-Welcome to Bloccit!
+Welcome to **_RedidIt_**!
 
 {:.center}
 ![]({{ site.baseurl }}/img/reddit.svg)
 
-Bloccit is an app that I built that's based on the fan fave Reddit, "*the front page of the internet*".
+**_RedidIt_** is an app that I built that's based on the fan fave Reddit, "*the front page of the internet*".
 
 Users can sign up and sign in to get access to all the topics. Then, they can post on the the topic of their choosing, and just like at Reddit, the posts get up-votes and down-votes, with the highest voted posts displaying first.
 
 Another ability users have is to comment on posts. Users can choose to *favorite* posts, and be notified by email when there are any new comments on those posts.
 
-Bloccit uses a ranking algorithm that's similar to Reddit's, making sure that the best and most popular posts display first, but decrease slowly in rank over time.
+**_RedidIt_** uses a ranking algorithm that's similar to Reddit's, making sure that the best and most popular posts display first, but decrease slowly in rank over time.
 
 To keep the most popular **current** posts at the top, I made the ranking method as follows:
 
@@ -41,8 +41,8 @@ end
 This way you don't have high rated posts from 10 years ago still showing up at the top.
 
 
-[Check out the app in production!](https://salty-plains-24479.herokuapp.com/)
+[Check out the app in production!](https://redidit.herokuapp.com/)
 
 Wanna see the code?
 
-[Bloccit on Github](https://github.com/svancott/bloccit)
+[RedidIt on Github](https://github.com/svancott/redidit)
