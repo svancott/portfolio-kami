@@ -5,6 +5,7 @@ thumbnail-path: "img/wiki_logo.png"
 short-description: Vanipedia is a replica of Wikipedia built with Ruby on Rails.
 ---
 Welcome to **_Vanipedia_**!
+A replica of Wikipedia built with Ruby on Rails
 
 {:.center}
 ![]({{ site.baseurl }}/img/wiki_logo.png)
