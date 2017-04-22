@@ -27,3 +27,5 @@ Refactoring the app with Angular really opened my eyes to the power of the frame
 I had a lot of fun building **_Time2Jam_** and am quite pleased with the finished product. I became much more experienced with both the jQuery library and AngularJS framework. Feel free to check out the code:
 
 [Time2Jam with AngularJS](https://github.com/svancott/time2jam)
+
+And check out the app in production! [Time2Jam](https://time2jam.herokuapp.com/)
