@@ -2,7 +2,7 @@
 layout: post
 title: The Joys of JavaScript
 ---
-Now that I had HTML, CSS and JavaScript under my belt, it was time to make a real-world, working app. Being a big fan of Spotify, I decided to make a similar app of my own called **_Time2Jam_**. You can read about the process more in depth [here](). I first built the app’s pages with HTML and CSS, and added some functionality to it with CSS transitions and JavaScript. Once I had the app designed aesthetically to my liking, I had to figure out how to make it play music, its main function! So I turned to [Buzz!](http://buzz.jaysalvat.com/), a small but powerful JavaScript audio library that uses the HTML5 audio element. I found it easy to use and employed several of its built-in methods in the app.
+Being a big fan of Spotify, I decided to make a similar app of my own called **_Time2Jam_**. You can read about the process more in depth [here](). I first built the app’s pages with HTML and CSS, and added some functionality to it with CSS transitions and JavaScript. Once I had the app designed aesthetically to my liking, I had to figure out how to make it play music, its main function! So I turned to [Buzz!](http://buzz.jaysalvat.com/), a small but powerful JavaScript audio library that uses the HTML5 audio element. I found it easy to use and employed several of its built-in methods in the app.
 
 About the same time that I was trying to incorporate Buzz!, I started learning jQuery. For those who don’t know, [jQuery](https://jquery.com/) is a JavaScript library with loads of functions already written for you to integrate in your app. By using jQuery, I cut the amount of code I had to write in half!
 
