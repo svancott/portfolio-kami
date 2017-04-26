@@ -2,7 +2,7 @@
 layout: post
 title: RedidIt
 thumbnail-path: "img/reddit.svg"
-short-description: RedidIt is an app that I built that's based on the fan fave Reddit, "the front page of the internet".
+short-description: An app I built based on the fan fave Reddit, "the front page of the internet".
 ---
 Welcome to **_RedidIt_**!
 

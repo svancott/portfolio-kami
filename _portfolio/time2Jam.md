@@ -2,7 +2,7 @@
 layout: post
 title: Time2Jam
 thumbnail-path: "img/bloc_jams_bg.jpg"
-short-description: Time2Jam is an awesome music playing app inspired by Spotify.
+short-description: An awesome music playing app inspired by Spotify.
 ---
 
 {:.center}

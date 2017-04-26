@@ -2,7 +2,7 @@
 layout: post
 title: ChitChat
 thumbnail-path: "img/blocChat.png"
-short-description: ChitChat is a real-time chat application built with AngularJS and Firebase.
+short-description: A real-time chat application built with AngularJS and Firebase.
 ---
 
 {:.center}
