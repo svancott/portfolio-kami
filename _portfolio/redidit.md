@@ -41,7 +41,7 @@ end
 This way you don't have high rated posts from 10 years ago still showing up at the top.
 
 
-[Check out the app in production!](https://redidit.herokuapp.com/)
+<!-- [Check out the app in production!](https://redidit.herokuapp.com/) -->
 
 Wanna see the code?
 

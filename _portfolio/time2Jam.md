@@ -28,4 +28,4 @@ I had a lot of fun building **_Time2Jam_** and am quite pleased with the finishe
 
 [Time2Jam with AngularJS](https://github.com/svancott/time2jam)
 
-And check out the app in production! [Time2Jam](https://time2jam.herokuapp.com/)
+<!-- And check out the app in production! [Time2Jam](https://time2jam.herokuapp.com/) -->
