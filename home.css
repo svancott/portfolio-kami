@@ -1,3 +1,19 @@
-.top {
-  color: red;
+.logo {
+  font-family: 'Pacifico', cursive;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 0px;
+}
+
+.mySlides {
+  background-color: rgb(68, 8, 31);
+}
+
+.brazil {
+  /*padding-left: 100px;*/
+  width:50%;
+  margin-top: 225px;
+  color: rgb(128, 8, 31);
+  font-family: 'Pacifico', cursive;
+  text-align: center;
 }
