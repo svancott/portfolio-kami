@@ -17,3 +17,11 @@
   font-family: 'Pacifico', cursive;
   text-align: center;
 }
+
+
+
+@media only screen and (max-width: 599px) {
+  .work {
+    text-align: center;
+  }
+}

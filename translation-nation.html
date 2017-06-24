@@ -38,10 +38,10 @@ body {font-family: "Lato", sans-serif}
 </div>
 
 <!-- Navbar on small screens -->
-<div id="navSmall" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top logo" style="margin-top:46px">
-  <a href="#work" class="w3-bar-item w3-button w3-padding-large">Our Work</a>
-  <a href="#about" class="w3-bar-item w3-button w3-padding-large">About Us</a>
-  <a href="#contact" class="w3-bar-item w3-button w3-padding-large">Contact</a>
+<div id="navSmall" class="ns w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium logo ham" style="margin-top:46px">
+  <a href="#work" class="w3-bar-item w3-button w3-padding-large ns">Our Work</a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large ns">About Us</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large ns">Contact</a>
   <!-- <a href="#" class="w3-bar-item w3-button w3-padding-large">MERCH</a> -->
 </div>
 
@@ -72,13 +72,12 @@ body {font-family: "Lato", sans-serif}
     </div>
   </div>
 
-  <!-- The Band Section -->
+  <!-- Our Work Section -->
   <div class="w3-container w3-content w3-padding-64" style="max-width:1000px;margin-top:100px;" id="work">
     <h2 class="w3-wide w3-center">Our Work</h2>
     <p class="w3-opacity w3-center"><b>What do we do?</b></p>
     <p class="w3-opacity w3-center"><i>Expand your audience to Brazil by translating:</i></p>
-    <!-- <p class="w3-justify">We are a husband and wife team, one American and one Brazilian. Together, we translate your content accurately and effectively to ensure that your readers get to experience it in their own native language. We personally translate your content word by word to make it sure flows smoothly, just as you designed it. We know you work hard to create content your users will love. Let us do the work of expanding your reach!   </p> -->
-    <div class="w3-padding-32 w3-row">
+    <div class="w3-padding-32 w3-row work">
       <div class="w3-third">
         <img src="img/iphone.jpg" class="w3-round w3-margin-bottom" alt="smartphone" style="width:90%;">
         <p class="w3-center">Apps</p>
@@ -91,16 +90,12 @@ body {font-family: "Lato", sans-serif}
         <img src="/img/document.jpg" class="w3-round" alt="document" style="width:90%">
         <p class="w3-center">Documents</p>
       </div>
-      <!-- <div class="w3-third">
-        <p class="w3-center">Interpretations</p>
-        <img src="/img/blocitoff.png" class="w3-round" alt="Random Name" style="width:90%">
-      </div> -->
     </div>
-    <p class="w3-center"><i>We also provide interpretations through video conferencing<br>or in-person in the Greater Philadelphia Area</i></p>
-      <img src="/img/workplace.jpg" alt="interpretations" class="w3-round" style="margin:auto;display:block;width:60%;">
+    <p style="text-align: center;"><i>We also provide interpretations through video conferencing or in-person in the Greater Philadelphia Area</i></p>
+    <img src="/img/workplace.jpg" alt="interpretations" class="w3-round" style="margin:auto;display:block;width:60%;min-width:320px">
   </div>
 
-  <!-- The Tour Section -->
+  <!-- About Us Section -->
   <div class="w3-black  w3-center" id="about">
     <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
       <h1 class="w3-wide w3-center">About Us</h1>
@@ -250,21 +245,18 @@ function carousel() {
 
 // Used to toggle the menu on small screens when clicking on the menu button
 function myFunction() {
-    var x = document.getElementById("navSmall");
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-    } else {
-        x.className = x.className.replace(" w3-show", "");
-    }
+  document.getElementById("navSmall").classList.toggle("w3-show");
+  document.getElementById("navSmall").classList.toggle("w3-top");
 }
 
 // When the user clicks anywhere outside of the modal, close it
-var modal = document.getElementById('ticketModal');
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
+window.addEventListener('mouseup', function(event){
+	var box = document.getElementById('navSmall');
+	if (event.target != box) {
+      box.classList.remove("w3-show")
+      box.classList.remove("w3-top")
   }
-}
+});
 </script>
 
 </body>
