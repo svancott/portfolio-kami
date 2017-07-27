@@ -2,9 +2,9 @@
 layout: post
 title: RedidIt
 thumbnail-path: "img/reddit.svg"
-short-description: An app I built based on the fan fave Reddit, "the front page of the internet".
+short-description: An app I built with Rails based on the fan fave Reddit, "the front page of the internet".
 ---
-Welcome to **_RedidIt_**!
+Welcome to **_RedidIt_**! Check out [the app](https://redidit.herokuapp.com/) in production!
 
 {:.center}
 ![]({{ site.baseurl }}/img/reddit.svg)
@@ -46,3 +46,7 @@ This way you don't have high rated posts from 10 years ago still showing up at t
 Wanna see the code?
 
 [RedidIt on Github](https://github.com/svancott/redidit)
+
+Wanna see it in production?
+
+[RedidIt on Heroku](https://redidit.herokuapp.com/)

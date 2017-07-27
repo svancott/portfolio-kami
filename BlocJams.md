@@ -6,7 +6,7 @@ short-description: Bloc Jams is an awesome music playing app inspired by Spotify
 Everybody loves Spotify, right? Its an awesome app for music lovers that showcases a huge library of songs and a solid user interface. Since I myself am also a fan of the app, I decided to build a similar app of my own called Bloc Jams.
 
 I designed the app’s pages with good ole’ fashion HTML and CSS, and first made them dynamic using CSS transitions and JavaScript. After incorporating event listeners and handlers, and a bunch of functions, the app was looking pretty good but was still without music. Up to this point I had written a good amount of code and knew that the same functionality could be more easily achievable by the other means, so I refactored the app using jQuery. With the help of the Buzz JavaScript library, I finally got my music app playing music! I was pretty satisfied with the finished project, but in an effort to improve my Angular skills I decided to refactor the app one last time using AngularJS. It didn’t take long until the app was fully functional once again, and performing better than ever.
-Throughout the project, there were a few recurring themes each time I refactored. One of which was how to display a list of the user’s saved albums. 
+Throughout the project, there were a few recurring themes each time I refactored. One of which was how to display a list of the user’s saved albums.
 
 The first time around using just JavaScript, I got the albums displaying by making a variable named collectionItemTemplate which include the album cover art, album name, artist and number of songs. Then with a simple for loop I displayed the album the desired number of times.
 

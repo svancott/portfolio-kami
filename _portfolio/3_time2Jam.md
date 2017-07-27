@@ -4,7 +4,7 @@ title: Time2Jam
 thumbnail-path: "img/bloc_jams_bg.jpg"
 short-description: An awesome music playing app inspired by Spotify.
 ---
-
+Check out [Time2Jam](https://time2jam.herokuapp.com/) in production!
 {:.center}
 ![]({{ site.baseurl }}/img/bloc_jams_bg.jpg)
 
@@ -28,4 +28,4 @@ I had a lot of fun building **_Time2Jam_** and am quite pleased with the finishe
 
 [Time2Jam with AngularJS](https://github.com/svancott/time2jam)
 
-<!-- And check out the app in production! [Time2Jam](https://time2jam.herokuapp.com/) -->
+And make sure to check out [the app](https://time2jam.herokuapp.com/) in production! 

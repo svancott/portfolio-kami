@@ -3,6 +3,7 @@ layout: post
 title: Vanipedia
 thumbnail-path: "img/wiki_logo.png"
 short-description: A replica of Wikipedia built with Ruby on Rails.
+order: 2
 ---
 Welcome to **_Vanipedia_**!
 A replica of Wikipedia built with Ruby on Rails
