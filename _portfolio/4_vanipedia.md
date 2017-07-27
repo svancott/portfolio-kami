@@ -5,11 +5,14 @@ thumbnail-path: "img/wiki_logo.png"
 short-description: A replica of Wikipedia built with Ruby on Rails.
 order: 2
 ---
-Welcome to **_Vanipedia_**!
-A replica of Wikipedia built with Ruby on Rails
+{:.center}
+Welcome to **_Vanipedia_**! A replica of Wikipedia built with Ruby on Rails.
 
 {:.center}
 ![]({{ site.baseurl }}/img/wiki_logo.png)
+
+{:.center}
+[Check it out in production!](https://vanipedia.herokuapp.com/)
 
 I built **_Vanipedia_** using Devise for my user model, so it has plenty of user freedom including signup/signin, email confirmation, 'forgot password' assistance, and a 'timeoutable' sign-out for inactive sessions.
 
@@ -45,7 +48,7 @@ class Collaborator < ApplicationRecord
 
 In my example, the Collaborator model (which can also be considered a '*join table*', since it *joins* the User and Wiki tables) gives me the ability to call Wiki.users to see that wiki's collaborators, and User.shared_wikis to see all the wikis that that user collaborates on (I used source: :wiki to be able to change the name to :shared_wikis to prevent confusion, since User.wikis would return the wikis where that user is the author). The Has Many Through relationship is a great tool to have in your belt.
 
-<!-- [Check out the app in production!](https://vanipedia.herokuapp.com/) -->
+[Check out the app in production!](https://vanipedia.herokuapp.com/)
 
 Wanna see the code?
 
